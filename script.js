@@ -1,5 +1,4 @@
-//your JS code here. If required.
-function Toupper(){
-	let inputfield = document.getElementById("fname");
-	inputfield.value=inputfield.value.toUpperCase();
-}
+function convertToUpperCase() {
+            var inputField = document.getElementById("fname");
+            inputField.value = inputField.value.toUpperCase();
+        }
