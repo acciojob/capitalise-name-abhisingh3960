@@ -1,4 +1,7 @@
-function convertToUpperCase() {
+document.addEventListener("DOMContentLoaded", function () {
             var inputField = document.getElementById("fname");
-            inputField.value = inputField.value.toUpperCase();
-        }
+
+            inputField.addEventListener("blur", function () {
+                inputField.value = inputField.value.toUpperCase();
+            });
+        });
